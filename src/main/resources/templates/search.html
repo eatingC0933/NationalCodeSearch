@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Search National code</title>
 </head>
 <body>
-$END$
+<h1>Search for a Country Code:</h1>
+<form action="search/query" method="get">
+    <input type="text" id="country" name="country" required>
+    <button type="submit">Search Again</button>
+</form>
+
+
 </body>
-</html>
